@@ -1,0 +1,12 @@
+#main {
+    height: 200px;
+    width: 200px;
+    border: 5px black;
+    justify-content: center;
+}
+
+.info {
+    height: 100px;
+    width: 100px;
+    border: 1px red;
+}
