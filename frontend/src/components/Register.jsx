@@ -17,13 +17,10 @@ const Register = () => {
         if(userData.name && userData.password && userData.email && userData.number) {
 
             const array = JSON.parse(localStorage.setItem("Users")) || [];
-            console.log(array)
             const Ls = { name: userData.name,
                  email: userData.email, password: userData.password, number: userData.number};
-            
-            array.push(Ls);
-
             console.log(Ls)
+            array.push(Ls);
             localStorage.setItem("Users",JSON.stringify(array));
             alert("Registration Successful..")
             router('/login')
