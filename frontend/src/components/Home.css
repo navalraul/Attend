@@ -1,0 +1,15 @@
+#main {
+    height: 650px;
+    width: 1300px;
+    /* border: 1px solid red; */
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: aqua;
+}
+.details {
+    height: 300px;
+    width: 400px;
+    border: 1px solid black;
+    background-color: antiquewhite;
+}

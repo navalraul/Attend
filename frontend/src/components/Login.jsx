@@ -36,19 +36,17 @@ const Login = () => {
 
     }
 
-
-
-
   return (
     <div>
       <div className='info'>
         <form onSubmit={handleSubmit}>
             <label>Email</label>
-            <input type='email' onChange={handleChange} placeholder='Email' />
+            <input type='email' onChange={handleChange} name='email' placeholder='Email' />
             <label>Password</label>
-            <input type='password' onChange={handleChange} placeholder='Password' />
+            <input type='password' onChange={handleChange} name='password' placeholder='Password' />
             <input type='submit' value="Login" />
         </form>
+        <button onClick={() => router('/register')}>Register</button>
       </div>
     </div>
   )
